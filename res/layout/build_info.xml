@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:padding="10dp">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/build_info_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_alignParentTop="true"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/txt_inherent_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:text="@string/build_info_inherent_header"/>
+
+            <TableLayout
+                android:id="@+id/table_build_properties"
+                android:stretchColumns="*"
+                android:layout_below="@id/txt_inherent_header"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp">
+                <!-- queued date -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView android:text="@string/build_info_queued_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="?attr/themedBuildPropertyColor"/>
+                    <TextView android:id="@+id/txt_queued" android:text="@string/unknown" android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </TableRow>
+                <!-- started date -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView android:text="@string/build_info_start_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="?attr/themedBuildPropertyColor"/>
+                    <TextView android:id="@+id/txt_started" android:text="@string/unknown" android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </TableRow>
+                <!-- finished date -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView android:text="@string/build_info_finish_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="?attr/themedBuildPropertyColor"/>
+                    <TextView android:id="@+id/txt_finished" android:text="@string/unknown" android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </TableRow>
+                <!-- build status -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView android:text="@string/build_info_status"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="?attr/themedBuildPropertyColor"/>
+                    <TextView android:id="@+id/txt_status" android:text="@string/unknown" android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </TableRow>
+            </TableLayout>
+
+            <!-- triggered by -->
+            <TextView android:id="@+id/txt_triggered_label"
+                android:text="@string/build_info_started_by_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/table_build_properties"
+                android:textColor="?attr/themedBuildPropertyColor"/>
+            <TextView android:id="@+id/txt_triggered"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_triggered_label"
+                android:text="@string/unknown" />
+
+            <!-- project -->
+            <TextView android:id="@+id/txt_project_label"
+                android:text="@string/build_info_project_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_triggered"
+                android:textColor="?attr/themedBuildPropertyColor"/>
+            <TextView android:id="@+id/txt_project"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_project_label"
+                android:text="@string/unknown"
+                />
+
+            <!-- agent -->
+            <TextView android:id="@+id/txt_agent_label"
+                android:text="@string/build_info_agent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_project"
+                android:textColor="?attr/themedBuildPropertyColor"/>
+            <TextView android:id="@+id/txt_agent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_agent_label"
+                android:text="@string/unknown" />
+
+            <!-- branch -->
+            <TextView android:id="@+id/txt_branch_label"
+                android:text="@string/build_info_branch_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_agent"
+                android:textColor="?attr/themedBuildPropertyColor"/>
+            <TextView android:id="@+id/txt_branch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_branch_label"
+                android:text="@string/unknown" />
+
+            <TextView
+                android:id="@+id/txt_custom_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:layout_below="@id/txt_branch"
+                android:text="@string/build_info_custom_header"
+                android:layout_marginTop="2dp"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:id="@+id/container_custom_properties"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/txt_custom_header"
+                android:layout_marginTop="2dp">
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="pref_screen_general"
+    android:title="@string/settings_general_title">
+
+    <CheckBoxPreference
+        android:key="pref_multiple_downloads"
+        android:title="@string/pref_title_multiple_downloads" />
+
+    <CheckBoxPreference
+        android:key="pref_enable_notifications"
+        android:title="@string/pref_title_enable_notifications" />
+
+    <com.raidzero.teamcitydownloader.global.TimePreference
+        android:key="pref_build_check_interval"
+        android:title="@string/pref_title_notification_interval"
+        android:defaultValue="2:0" />
+
+</PreferenceScreen>

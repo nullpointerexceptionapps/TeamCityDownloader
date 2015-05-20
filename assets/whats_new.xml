@@ -1,0 +1,65 @@
+<whats-new>
+    <revision version="1.3.4.1" date="2015-02-10">
+        <change>Automatically add http:// prefix to server URL if missing</change>
+    </revision>
+
+    <revision version="1.3.4" date="2015-01-20">
+        <change>Kindle support</change>
+        <change>Behind the scenes updates</change>
+    </revision>
+
+    <revision version="1.3.3" date="2015-01-13">
+        <change>Add test connection button option server setup screen</change>
+        <change>Rework settings screens navigation</change>
+    </revision>
+
+    <revision version="1.3.2" date="2015-01-01">
+        <change>Happy New Year!</change>
+        <change>Add Play Store / GitHub / Contact links &amp; app version to settings screen</change>
+    </revision>
+
+    <revision version="1.3.1.1" date="2014-12-31">
+        <change>Fixed possible crash seen on select devices</change>
+    </revision>
+
+    <revision version="1.3.1" date="2014-12-09">
+        <change>Check all branches for a new build notification</change>
+        <change>Only notify for successful builds</change>
+        <change>Always pull fresh data when responding to a notification</change>
+    </revision>
+
+    <revision version="1.3" date="2014-12-05">
+        <change>Use Android 5.0 visual theme</change>
+        <change>Add option to allow multiple simultaneous downloads</change>
+        <change>Keep downloaded files for use later (long press to delete/cancel)</change>
+        <change>Add option to get notified about new builds in favorite build configurations</change>
+        <change>Behind the scenes updates</change>
+    </revision>
+
+    <revision version="1.2" date="2014-08-17">
+        <change>New welcome screen with separated quick start &amp; what's new</change>
+        <change>Fix rotation issues</change>
+        <change>Launch welcome screen at any time from drawer</change>
+        <change>Long-press build to view build information, long-press config/build to open in browser</change>
+        <change>Automatically prefix server address with http:// if no http prefix is given</change>
+        <change>Animation consistency fixes</change>
+        <change>Behind the scenes updates</change>
+    </revision>
+
+    <revision version="1.1.1" date="2014-08-14">
+        <change>Fixed update bug for responses existing in cache</change>
+    </revision>
+
+    <revision version="1.1" date="2014-08-13">
+        <change>More robust server configuration error handling</change>
+        <change>Rotate refresh icon instead of displaying progress dialog</change>
+        <change>Use the app icon as a back button if not on home screen</change>
+        <change>Navigate up to parent artifact directories</change>
+        <change>Support multiple branches for a build configuration</change>
+        <change>Store response cache on disk instead of RAM</change>
+    </revision>
+
+    <revision version="1.0" date="2014-07-14">
+        <change>Initial Release</change>
+    </revision>
+</whats-new>

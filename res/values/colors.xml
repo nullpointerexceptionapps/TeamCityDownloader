@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_build_failed">#bb0000</color>
+    <color name="color_build_success">#00bb00</color>
+    <color name="color_build_property_light">#0000bb</color>
+    <color name="color_build_property_dark">#0084ff</color>
+
+    <color name="color_text_light">#000000</color>
+    <color name="color_divider_light">#666666</color>
+    <color name="color_background_light">#ffffff</color>
+
+    <color name="color_text_dark">#ffffff</color>
+    <color name="color_divider_dark">#aaaaaa</color>
+    <color name="color_background_dark">#000000</color>
+
+</resources>

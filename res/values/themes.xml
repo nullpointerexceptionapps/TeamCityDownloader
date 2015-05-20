@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Dark" parent="@style/Theme.AppCompat">
+        <item name="themeName">@string/theme_name_dark</item>
+
+        <!-- icons -->
+        <item name="themedRefreshIcon">@drawable/ic_menu_refresh_dark</item>
+        <item name="themedFilledStarIcon">@drawable/ic_menu_star_filled_dark</item>
+        <item name="themedEmptyStarIcon">@drawable/ic_menu_star_empty_dark</item>
+
+        <!-- colors -->
+        <item name="themedTextColor">@color/color_text_dark</item>
+        <item name="themedBackgroundColor">@color/color_background_dark</item>
+        <item name="themedDividerColor">@color/color_divider_dark</item>
+        <item name="themedBuildPropertyColor">@color/color_build_property_dark</item>
+
+        <item name="drawerArrowStyle">@style/DrawerArrow</item>
+    </style>
+
+    <style name="Light" parent="@style/Theme.AppCompat.Light">
+        <item name="themeName">@string/theme_name_light</item>
+
+        <!-- icons -->
+        <item name="themedRefreshIcon">@drawable/ic_menu_refresh_light</item>
+        <item name="themedFilledStarIcon">@drawable/ic_menu_star_filled_light</item>
+        <item name="themedEmptyStarIcon">@drawable/ic_menu_star_empty_light</item>
+
+        <!-- colors -->
+        <item name="themedTextColor">@color/color_text_light</item>
+        <item name="themedBackgroundColor">@color/color_background_light</item>
+        <item name="themedDividerColor">@color/color_divider_light</item>
+        <item name="themedBuildPropertyColor">@color/color_build_property_light</item>
+
+        <item name="drawerArrowStyle">@style/DrawerArrow</item>
+    </style>
+
+</resources>

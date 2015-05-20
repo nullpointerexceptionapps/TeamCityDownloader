@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Teamcity Downloader</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_refresh">Refresh</string>
+    <string name="action_favorite">Favorite</string>
+    <string name="action_add_project">Select Projects</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_open_welcome">Help</string>
+    <string name="action_downloaded_files">Downloads</string>
+
+    <string name="main_back_to_exit">You are home. Press back again to exit app.</string>
+
+    <!-- settings -->
+    <string name="pref_cat_main_title">Main</string>
+    <string name="pref_cat_about_title">About</string>
+    <string name="settings_main_title">Settings</string>
+    <string name="settings_play_store_summary">If you like this app, rate it to show your appreciation!</string>
+    <string name="settings_github_title">GitHub</string>
+    <string name="settings_github_summary">Browse source code</string>
+    <string name="settings_version_title">Version</string>
+    <string name="settings_contact_title">Contact</string>
+    <string name="settings_contact_summary">Contact me with questions, comments, feedback or bugs</string>
+
+    <!-- server config -->
+    <string name="server_config_title">Server Configuration</string>
+    <string name="credentials_config_title">Authentication</string>
+    <string name="pref_title_enable_guest">Use Guest Login</string>
+    <string name="pref_summary_enable_guest">Enable the use of the built-in TeamCity guest account</string>
+
+    <string name="pref_title_server_address">Server Address</string>
+    <string name="pref_summary_server_address">https://teamcity.domain.com:8111</string>
+    <string name="pref_dialog_title_server_address">Enter server address:</string>
+
+    <string name="pref_title_ignore_archived">Ignore Archived</string>
+    <string name="pref_summary_ignore_archived">Ignore archived projects</string>
+
+    <string name="pref_title_server_username">Username</string>
+    <string name="pref_summary_server_username">Username used to authenticate with server</string>
+    <string name="pref_dialog_title_server_username">Enter username:</string>
+
+    <string name="pref_title_server_password">Password</string>
+    <string name="pref_summary_server_password">Password used to authenticate with server</string>
+    <string name="pref_dialog_title_server_password">Enter password:</string>
+    <string name="pref_title_test_connection">Test connection to server</string>
+
+    <!-- appearance -->
+    <string name="settings_theme_title">Theme</string>
+    <string name="pref_summary_theme">Change the theme used by the app</string>
+    <string name="settings_appearance_title">Appearance</string>
+
+    <!-- general -->
+    <string name="settings_general_title">General</string>
+    <string name="pref_summary_multiple_downloads_enabled">Files will be downloaded simultaneously and not opened automatically</string>
+    <string name="pref_summary_multiple_downloads_disabled">Files will be downloaded one at a time and automatically opened when finished</string>
+
+    <string name="pref_title_multiple_downloads">Multiple downloads</string>
+
+    <string name="pref_title_enable_notifications">Favorites Notifications</string>
+    <string name="pref_summary_notifications_enabled">Notifications for new builds in favorite configurations will be shown</string>
+    <string name="pref_summary_notifications_disabled">Notifications will not be shown</string>
+    <string name="pref_title_notification_interval">Build check frequency</string>
+    <string name="repeat_hours">Hours</string>
+    <string name="repeat_mins">Minutes</string>
+    <string name="interval_battery_warning">Short intervals may have a negative effect on battery life</string>
+
+    <!-- home view -->
+    <string name="main_no_projects">It\'s lonely here. Add some projects.</string>
+
+    <!-- themes -->
+    <string name="theme_name_light">Light</string>
+    <string name="theme_name_dark">Dark</string>
+
+    <!-- fragment names -->
+    <string name="title_main">Projects</string>
+    <string name="title_server">Server Config</string>
+    <string name="title_about_server">About Server</string>
+    <string name="title_no_projects">No Projects</string>
+    <string name="title_available_projects">Projects</string>
+    <string name="title_available_configs">Configs</string>
+    <string name="title_available_builds">Builds</string>
+    <string name="title_available_files">Files</string>
+
+    <!-- about server -->
+    <string name="about_server_version">Server Version</string>
+    <string name="about_server_start_time">Start Time</string>
+    <string name="about_server_current_time">Current Time</string>
+    <string name="about_server_projects_path">Projects Path</string>
+
+    <!-- generic -->
+    <string name="your_projects">Your projects</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="unknown">Unknown</string>
+    <string name="unknown_error_has_occurred">An unkown error has occurred.</string>
+    <string name="processing">Processing&#8230;</string>
+    <string name="querying">Querying&#8230;</string>
+    <string name="querying_please_wait">Querying, please wait&#8230;</string>
+    <string name="misconfigured_server">Server is misconfigured</string>
+    <string name="server_connection_success">Server connection successful.</string>
+    <string name="no_artifacts">No build artifacts found.</string>
+    <string name="no_builds">No builds found.</string>
+    <string name="no_configs">No build configurations found.</string>
+    <string name="unsupported_file_type">Unsupported file type: %1$s</string>
+    <string name="default_branch">Default Branch</string>
+    <string name="all_branches">All Branches"</string>
+    <string name="open_in_browser">Open in Browser</string>
+    <string name="save">Save</string>
+    <string name="storage_not_mounted_title">External storage unavailable</string>
+    <string name="storage_not_mounted_message">Please ensure the external storage device is available and try again.</string>
+    <string name="storage_error_title">Storage error</string>
+    <string name="storage_error_message">Unknown error has occurred. Unable to access download directory. Try again. If this problem persists, please reboot your device.</string>
+
+    <!-- welcome -->
+    <string name="header_welcome">Welcome!</string>
+    <string name="whats_new">What\'s new?</string>
+    <string name="quick_start">Quick start</string>
+    <string name="contact_statement">If you have questions, comments, feedback or bugs, please contact me at </string>
+    <string name="contact_email_address">null.pointer.exception.apps@gmail.com</string>
+    <string name="contact_email_subject">TeamCity Downloader Feedback</string>
+    <string name="quick_start_footer">(Tap OK to dismiss forever, or Cancel to dismiss until next launch)</string>
+
+    <!-- unkown sources -->
+    <string name="title_unknown">Unknown Sources Required</string>
+    <string name="unknown_sources_explanation">Installation of non Play Store apps is prevented. Tap OK to launch Security settings and enable Unknown Sources. Cancel to exit the app.</string>
+
+    <!-- config error -->
+    <string name="title_config_error">Server Configuration Error</string>
+    <string name="config_error_message">A server configuration error has occurred. The following items need to be addressed:</string>
+    <string name="config_error_suffix">Tap OK to launch settings and address these issues.</string>
+    <string name="config_error_no_username">Username not found</string>
+    <string name="config_error_no_password">Password not found</string>
+    <string name="config_error_no_server">Server address not found</string>
+
+    <!-- download service -->
+    <string name="download_canceled">Download canceled: %1$s</string>
+    <string name="download_canceled_generic">Download canceled</string>
+    <string name="download_in_progress">Downloading %1$d file</string>
+    <string name="download_complete">Download complete</string>
+    <string name="no_downloaded_files_found">No files found.</string>
+
+    <!-- notification service -->
+    <string name="notify_content_title">Build Notification</string>
+    <string name="notify_content_text_single">A new build is available in %1$s</string>
+    <string name="notify_content_text_multiple">New builds are available in:</string>
+
+    <!-- downloaded files activity -->
+    <string name="downloaded_files_title">Downloaded Files</string>
+    <string name="downloaded_files_clear_label">Delete all files</string>
+    <string name="downloaded_file_delete">Delete</string>
+    <string name="all_files_deleted">%1$d files deleted</string>
+    <string name="no_files_to_delete">No files to delete</string>
+    <string name="all_downloads_canceled">downloads cancelled.</string>
+
+    <!-- select favorites activity -->
+    <string name="title_select_favorite">Please select a favorite</string>
+
+    <!-- web response descriptions -->
+    <string-array name="web_responses">
+        <item>400: Bad Request</item>
+        <item>401: Unauthorized. Invalid credentials</item>
+        <item>500: Server error</item>
+    </string-array>
+
+    <!-- build info -->
+    <string name="build_info_inherent_header">Inherent Properties</string>
+    <string name="build_info_custom_header">Custom Properties</string>
+    <string name="build_info_status">Status</string>
+    <string name="build_info_number">Build Number</string>
+    <string name="build_info_branch_name">Branch Name:</string>
+    <string name="build_info_project_name">Project Name:</string>
+    <string name="build_info_queued_date">Queued Time</string>
+    <string name="build_info_start_date">Start Time</string>
+    <string name="build_info_finish_date">Finish Time</string>
+    <string name="build_info_started_by_user">Started By:</string>
+    <string name="build_info_agent">Build Agent:</string>
+    <string name="build_info_properties">Properties</string>
+
+</resources>

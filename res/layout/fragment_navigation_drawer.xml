@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_navDrawer"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="?attr/themedBackgroundColor"
+    android:layout_gravity="start"
+    android:clickable="true">
+
+
+    <TextView
+        android:id="@+id/navDrawer_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:padding="5dp"
+        android:text="@string/app_name"
+        android:gravity="center"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:drawableStart="@drawable/ic_launcher"/>
+
+    <ListView
+        android:id="@+id/nav_menu_items"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:choiceMode="singleChoice"
+        android:layout_below="@id/navDrawer_header"/>
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<resources>
+
+    <style name="AppActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/ActionBar.Text</item>
+
+        <!-- action bar background -->
+        <item name="android:background">?attr/themedBackgroundColor</item>
+    </style>
+
+    <style name="ActionBar.Text" parent="@android:style/TextAppearance">
+
+        <!-- title text color & size -->
+        <item name="android:textColor">?attr/themedTextColor</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="LightDialog" parent="android:Theme.Holo.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+    </style>
+
+    <style name="DarkDialog" parent="android:Theme.Holo.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+    </style>
+
+    <style name="AppDialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="LightDialogActivity" parent="@android:style/Theme.Dialog">
+        <item name="@android:background">@color/color_background_light</item>
+        <item name="@android:textColor">@color/color_text_light</item>
+    </style>
+
+    <style name="DarkDialogActivity" parent="@android:style/Theme.Dialog">
+        <item name="@android:background">@color/color_background_dark</item>
+        <item name="@android:textColor">@color/color_text_dark</item>
+    </style>
+
+    <style name="DrawerArrow" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+    </style>
+
+</resources>

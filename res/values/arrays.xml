@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="themeValues">
+        <item>light</item>
+        <item>dark</item>
+    </string-array>
+
+    <string-array name="themeNames">
+        <item>@string/theme_name_light</item>
+        <item>@string/theme_name_dark</item>
+    </string-array>
+
+    <string-array name="build_menu">
+        <item>Build Info</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="?attr/themedBackgroundColor">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome text here"
+            android:id="@+id/txt_welcome_text"
+            android:layout_gravity="center_horizontal"
+
+            android:scrollbars="vertical"/>
+
+        <TextView
+            android:id="@+id/txt_welcome_contact_statement"
+            android:layout_below="@id/txt_welcome_text"
+            android:layout_marginTop="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_statement"/>
+
+        <TextView
+            android:id="@+id/txt_contact_email"
+            android:layout_below="@id/txt_welcome_contact_statement"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/themedBuildPropertyColor"
+            android:text="@string/contact_email_address"/>
+
+        <TextView
+            android:id="@+id/txt_quick_start_footer"
+            android:layout_below="@id/txt_contact_email"
+            android:layout_marginTop="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quick_start_footer"/>
+    </RelativeLayout>
+</ScrollView>
+

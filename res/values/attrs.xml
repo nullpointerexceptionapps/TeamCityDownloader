@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="customAttrs">
+        <!-- reference icons so that it can be easily switched when changing themes -->
+        <attr name="themedRefreshIcon" format="reference" />
+        <attr name="themedFilledStarIcon" format="reference" />
+        <attr name="themedEmptyStarIcon" format="reference" />
+
+        <attr name="themedTextColor" format="reference" />
+        <attr name="themedDividerColor" format="reference" />
+        <attr name="themedBackgroundColor" format="reference" />
+        <attr name="themedBuildPropertyColor" format="reference" />
+
+        <attr name="themeName" format="reference" />
+    </declare-styleable>
+</resources>

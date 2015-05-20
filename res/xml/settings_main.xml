@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_main_title">
+
+    <PreferenceCategory
+        android:key="pref_main_category"
+        android:title="@string/pref_cat_main_title">
+
+        <Preference
+            android:key="pref_launch_general"
+            android:title="@string/settings_general_title" />
+
+        <Preference
+            android:key="pref_launch_server"
+            android:title="@string/server_config_title" />
+
+        <Preference
+            android:key="pref_launch_appearance"
+            android:title="@string/settings_appearance_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_category_about"
+        android:title="@string/pref_cat_about_title">
+
+        <Preference
+        android:key="pref_play_store"
+        android:title="@string/market_label"
+        android:summary="@string/settings_play_store_summary"/>
+
+        <Preference
+            android:key="pref_contact"
+            android:title="@string/settings_contact_title"
+            android:summary="@string/settings_contact_summary"/>
+        <Preference
+            android:key="pref_github"
+            android:title="@string/settings_github_title"
+            android:summary="@string/settings_github_summary"/>
+
+        <Preference
+            android:key="pref_version"
+            android:title="@string/settings_version_title"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

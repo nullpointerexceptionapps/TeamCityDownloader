@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="pref_screen_appearance"
+    android:title="@string/settings_appearance_title">
+
+    <ListPreference
+        android:title="@string/settings_theme_title"
+        android:summary="@string/pref_summary_theme"
+        android:key="theme"
+        android:defaultValue="dark"
+        android:entryValues="@array/themeValues"
+        android:entries="@array/themeNames"/>
+
+</PreferenceScreen>

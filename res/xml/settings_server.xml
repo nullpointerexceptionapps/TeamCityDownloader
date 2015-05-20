@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="pref_screen_server"
+    android:title="@string/server_config_title">
+
+    <!-- guest account -->
+    <CheckBoxPreference
+        android:key="pref_enable_guest"
+        android:title="@string/pref_title_enable_guest"
+        android:summary="@string/pref_summary_enable_guest" />
+
+    <EditTextPreference
+        android:key="pref_server_address"
+        android:title="@string/pref_title_server_address"
+        android:summary="@string/pref_summary_server_address"
+        android:dialogTitle="@string/pref_dialog_title_server_address"
+        android:inputType="textFilter" />
+
+    <CheckBoxPreference
+        android:key="pref_ignore_archived"
+        android:title="@string/pref_title_ignore_archived"
+        android:summary="@string/pref_summary_ignore_archived" />
+
+    <PreferenceCategory
+        android:key="pref_key_credentials"
+        android:title="@string/credentials_config_title">
+
+        <!-- username -->
+        <EditTextPreference
+            android:key="pref_server_username"
+            android:title="@string/pref_title_server_username"
+            android:summary="@string/pref_summary_server_username"
+            android:dialogTitle="@string/pref_dialog_title_server_username"
+            android:inputType="textFilter" />
+
+        <!-- password -->
+        <EditTextPreference
+            android:key="pref_server_password"
+            android:title="@string/pref_title_server_password"
+            android:summary="@string/pref_summary_server_password"
+            android:dialogTitle="@string/pref_dialog_title_server_password"
+            android:inputType="textPassword" />
+    </PreferenceCategory>
+
+    <Preference
+        android:key="pref_test_connection"
+        android:title="@string/pref_title_test_connection" />
+
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="market_pkg_name">com.raidzero.teamcitydownloader</string>
+    <string name="market_uri">market://details?id=</string>
+    <string name="market_label">Play Store</string>
+    <string name="market_no_app_title">No Play Store</string>
+    <string name="market_no_app_msg">Error: No Play Store found.</string>
+</resources>
