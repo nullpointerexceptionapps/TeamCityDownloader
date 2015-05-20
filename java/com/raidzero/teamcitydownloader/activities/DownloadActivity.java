@@ -94,7 +94,9 @@ public class DownloadActivity extends Activity  implements DownloadTask.Download
 
     @Override
     public void onDownloadComplete(String filePath, DownloadRequest request) {
-        mProgressDialog.dismiss();
+        if (mProgressDialog != null && mProgressDialog.isShowing()) {
+            mProgressDialog.dismiss();
+        }
         FileUtility.openFile(this, filePath);
         finish();
     }

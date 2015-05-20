@@ -8,7 +8,6 @@ import com.raidzero.teamcitydownloader.activities.MainActivity;
 public class Common {
     public static AppHelper appHelper;
     public static String appName = "TeamCity Downloader";
-    public static String pkgName = "com.raidzero.teamcitydownloader";
     public static String gitHubUrl = "https://github.com/nullpointerexceptionapps/TeamCityDownloader";
     public static String emailAddress = "null.pointer.exception.apps@gmail.com";
 
